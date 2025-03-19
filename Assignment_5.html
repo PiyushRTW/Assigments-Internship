@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Form Example</title>
+</head>
+<body>
+
+<h2><strong><em><u>User Registration</u></em></strong></h2>
+
+<form action="/submit_form" method="post">
+
+  <fieldset>
+    <legend><b>Personal Information</b></legend>
+
+    <label for="fname"><i>First Name:</i></label><br>
+    <input type="text" id="fname" name="fname" value=""><br><br>
+
+    <label for="lname"><i>Last Name:</i></label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+
+    <label for="email"><i>Email:</i></label><br>
+    <input type="email" id="email" name="email" value=""><br><br>
+
+    <label for="password"><i>Password:</i></label><br>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="dob"><i>Date of Birth:</i></label><br>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="age"><i>Age:</i></label><br>
+    <input type="number" id="age" name="age" min="18" max="120"><br><br>
+
+    <label for="phone"><i>Phone Number:</i></label><br>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"><br><br>
+
+    <label for="url"><i>Website:</i></label><br>
+    <input type="url" id="url" name="url"><br><br>
+
+    <label for="search"><i>Search:</i></label><br>
+    <input type="search" id="search" name="search"><br><br>
+
+    <label for="range"><i>Volume:</i></label><br>
+    <input type="range" id="range" name="range" min="0" max="100" value="50"><br><br>
+
+    <label for="color"><i>Favorite Color:</i></label><br>
+    <input type="color" id="color" name="color" value="#ff0000"><br><br>
+
+    <label for="time"><i>Preferred Time:</i></label><br>
+    <input type="time" id="time" name="time"><br><br>
+
+    <label for="datetime"><i>Meeting Time:</i></label><br>
+    <input type="datetime-local" id="datetime" name="datetime"><br><br>
+
+    <label for="month"><i>Birth Month:</i></label><br>
+    <input type="month" id="month" name="month"><br><br>
+
+    <label for="week"><i>Birth Week:</i></label><br>
+    <input type="week" id="week" name="week"><br><br>
+
+    <label for="file"><i>Upload File:</i></label><br>
+    <input type="file" id="file" name="file"><br><br>
+
+    <label for="hidden"><i>Hidden Field:</i></label><br>
+    <input type="hidden" id="hidden" name="hidden" value="secret_value"><br><br>
+
+  </fieldset>
+
+  <fieldset>
+    <legend><b>Other Information</b></legend>
+    <p><i>Gender:</i></p>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label><br><br>
+
+    <p><i>Interests:</i></p>
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">Coding</label><br>
+    <input type="checkbox" id="reading" name="interests" value="reading">
+    <label for="reading">Reading</label><br>
+    <input type="checkbox" id="sports" name="interests" value="sports">
+    <label for="sports">Sports</label><br><br>
+
+    <label for="country"><i>Country:</i></label><br>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="uk">UK</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <label for="comments"><i>Comments:</i></label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+    <label for="datalist"><i>Browser:</i></label><br>
+    <input list="browsers" name="browser" id="datalist"><br>
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist><br><br>
+
+  </fieldset>
+
+  <fieldset>
+    <legend><b>Additional Information</b></legend>
+
+    <label for="number"><i>Favorite Number:</i></label><br>
+    <input type="number" id="number" name="number"><br><br>
+
+    <label for="textarea"><i>Additional Comments:</i></label><br>
+    <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+
+    <label for="select"><i>Choose an option:</i></label><br>
+    <select id="select" name="select">
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select><br><br>
+
+    <label for="radio"><i>Choose one:</i></label><br>
+    <input type="radio" id="radio1" name="radio" value="radio1">
+    <label for="radio1">Radio 1</label><br>
+    <input type="radio" id="radio2" name="radio" value="radio2">
+    <label for="radio2">Radio 2</label><br><br>
+
+    <label for="checkbox"><i>Check if true:</i></label><br>
+    <input type="checkbox" id="checkbox" name="checkbox" value="true">
+    <label for="checkbox">True</label><br><br>
+
+    <label for="mail"><i>Email:</i></label><br>
+    <input type="email" id="mail" name="mail"><br><br>
+
+    <label for="color"><i>Favorite Color:</i></label><br>
+    <input type="color" id="color" name="color"><br><br>
+
+    <label for="url"><i>Personal Website:</i></label><br>
+    <input type="url" id="url" name="url"><br><br>
+
+    <label for="search"><i>Search:</i></label><br>
+    <input type="search" id="search" name="search"><br><br>
+
+    <label for="range"><i>Volume:</i></label><br>
+    <input type="range" id="range" name="range" min="0" max="100" value="50"><br><br>
+
+    <label for="tel"><i>Telephone:</i></label><br>
+    <input type="tel" id="tel" name="tel"><br><br>
+
+    <label for="date"><i>Date:</i></label><br>
+    <input type="date" id="date" name="date"><br><br>
+
+    <label for="time"><i>Time:</i></label><br>
+    <input type="time" id="time" name="time"><br><br>
+
+    <label for="datetime-local"><i>Date and Time:</i></label><br>
+    <input type="datetime-local" id="datetime-local" name="datetime-local"><br><br>
+
+    <label for="month"><i>Month:</i></label><br>
+    <input type="month" id="month" name="month"><br><br>
+
+    <label for="week"><i>Week:</i></label><br>
+    <input type="week" id="week" name="week"><br><br>
+
+    <label for="file"><i>File:</i></label><br>
+    <input type="file" id="file" name="file"><br><br>
+
+    <label for="hidden"><i>Hidden:</i></label><br>
+    <input type="hidden" id="hidden" name="hidden" value="hidden_value"><br><br>
+
+    <label for="image"><i>Image:</i></label><br>
+    <input type="image" id="image" name="image" src="submit.png" alt="Submit"><br><br>
+
+    <label for="button"><i>Button:</i></label><br>
+    <input type="button" id="button" name="button" value="Click Me"><br><br>
+
+    <label for="reset"><i>Reset:</i></label><br>
+    <input type="reset" id="reset" name="reset" value="Reset"><br><br>
+
+    <label for="submit"><i>Submit:</i></label><br>
+    <input type="submit" id="submit" name="submit" value="Submit"><br><br>
+  </fieldset>
+
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
