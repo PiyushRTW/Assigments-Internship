@@ -1,0 +1,46 @@
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5 {
+    width: 120px;
+    height: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #e11d48;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 15px;
+}
+
+#btndiv {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#scrollable,
+#auto,
+#scrollable2,
+#visible,
+#visible2 {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    border: 2px solid orange;
+}
+
+#scroll1,
+#auto1,
+#scroll2,
+#visible1,
+#visible3 {
+    width: 60%;
+    height: 50%;
+    border: 2px solid gray;
+    margin-left: 20px;
+}
